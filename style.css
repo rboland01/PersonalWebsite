@@ -1,4 +1,41 @@
+/*
+Author: Bobby Boland
+Date 3/30/2022
+*/
+
+body {
+  background-color: #333;
+  color: white;
+}
+nn 
 .page-header{
-  background-color: orange;
-  padding: 1em;
+  background-color: #333;
+  padding: 1em 0em 0em 0em;
+  color: white;
+  border-bottom: 1px solid #bbb;
+}
+
+.page-title {
+  border-bottom: 1px solid #bbb;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li{
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
